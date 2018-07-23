@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Pg.css">
+    <script type="text/javascript" src="Pg.js"></script>
+    <title>TDBD</title>
+</head>
+<body>
+    <div id="menuInicio">
+        <div id="barrasMenu">
+        <i class="fa fa-bars fa-2x" aria-hidden="true" id="barrasInicio"></i>
+        </div>
+        <button class="boton_Menu" style="position:fixed;right:20px;"> Registrate</button>
+        <button class="boton_Menu" style="position:fixed;right:180px;"> Ingresar</button>
+    </div>
+    
+    
+    <div id="titulo1" style="color:white; text-shadow: 5px 5px #74d, -5px -5px 100px black;">
+        TDBD
+    </div>
+     <svg width="0" height="0" style="position: absolute">
+        <pattern id="pattern" patternUnits="userSpaceOnUse" x="0" y="0" widht="10" height="10" viewBox="0 0 10 10">
+            <path d="M-5,0,10,15M0-5,15,10" stroke="white" stoke-width="5"/>
+        </pattern>
+    </svg>
+    <script>
+        var s = Snap();
+        s.polygon(0,0,0,600,600,0).attr({ fill: 'rgb(100,0,94)'});
+        s.polygon(425,175,0,600,0,700,860,700).attr({ fill: 'rgb(167,57,157)'});
+        s.polygon(40,50,40,115,90,90).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(400,505,410,590,460,525).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(680,110,610,150,680,190).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(650,430,615,455,660,470).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(170,440,135,555,250,505).attr({ fill: 'rgb(125,255,160)'});
+        
+        s.polygon(880,410,760,430,830,530).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(980,280,960,170,1070,210).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(960,580,1160,470,1180,680).attr({ fill: 'rgb(125,255,160)'});
+        s.polygon(1200,270,1340,110,1380,330).attr({ fill: 'rgb(125,255,160)'});
+    </script>
+</body>
+</html>

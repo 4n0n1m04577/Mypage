@@ -1,0 +1,67 @@
+body, html { 
+	height:100%;
+	margin: 0;
+    margin-bottom:10px ;
+	background-color: #1b1c1b;
+	overflow: hidden;
+}
+#titulo1{
+    width:400px;
+    height:160px ;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:35%;
+    color:white;
+    font-family: AR-DESTINE;
+    font-size:160px;
+    text-shadow: 2px 2px #74d;
+}
+@font-face {
+    font-family: 'AR-DESTINE';
+    src:url('webfonts_AR-DESTINE/AR-DESTINE.ttf.woff') format('woff'),
+        url('webfonts_AR-DESTINE/AR-DESTINE.ttf.svg#AR-DESTINE') format('svg'),
+        url('webfonts_AR-DESTINE/AR-DESTINE.ttf.eot'),
+        url('webfonts_AR-DESTINE/AR-DESTINE.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+#menuInicio{
+    position: fixed;
+    height:40px;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    z-index: 1;
+}
+
+.menuCambio{
+    background-color: #552266;
+}
+
+
+#barrasMenu{
+	position:absolute;
+	left:20px;
+	top:3px;
+    color:white;
+}
+.boton_Menu{
+	background-color: #000;
+	border: none;
+	height: 30px;
+	width: 150px;
+    color:white;
+	font-family: 'Ubuntu', serif;
+    font-size: 16px;
+	top:5px;
+}
+
+.boton_Menu:hover{
+	color:black;
+	background-color: #a1f8bd;
+}
+svg {
+    z-index:-1;
+}

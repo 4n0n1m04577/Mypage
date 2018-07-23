@@ -1,0 +1,93 @@
+/*
+#2c2729 --> dark purple
+#402f47 --> a litte dark purple
+#2f3342 --> a litte dark blue
+#b8facd --> very light green
+#74d599 --> light green
+//
+#414241 --> a interesting grey
+#291a34 --> puple
+#885f8c --> a cute purple
+#ab8fb0 --> light purple
+#526e7d --> light blue
+#3759a0 --> a friendly blue
+#a1f8bd --> light green
+#aa11ff --> another purple
+#552266 --> and another more
+#1b1c1b --> dark grey
+*/
+body, html { 
+	height:100%;
+	margin: 0px;
+	background-color: #1b1c1b;
+	overflow: hidden;
+}
+@font-face {
+    font-family: 'AR-DESTINE';
+    src:url('webfonts_AR-DESTINE/AR-DESTINE.ttf.woff') format('woff'),
+        url('webfonts_AR-DESTINE/AR-DESTINE.ttf.svg#AR-DESTINE') format('svg'),
+        url('webfonts_AR-DESTINE/AR-DESTINE.ttf.eot'),
+        url('webfonts_AR-DESTINE/AR-DESTINE.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+canvas { 
+	width: 100%; 
+	height: 100% 
+}
+
+#menu_Principal{
+    position:absolute;
+	color: white;
+	width:100%;
+    height:40px;
+	text-align: center;
+	background-color: #552266;
+}
+
+#titulo_Pagina{
+	text-align: center;
+	position:fixed;
+	top:35px;
+	left: 50%;
+	height: 80px;
+	width: 200px;
+	font: normal small-caps normal 72px AR-DESTINE; 
+    /*Caesar Dressing*/ 
+	transform: translate(-50%, -50%);
+	text-shadow: 2px 2px #74d;
+}
+
+#barras_Menu{
+	position:fixed;
+	left:20px;
+	top:3px;
+    color:white;
+}
+
+#barras_Menu:hover{
+	color:rgba(232, 232, 232,0.8);
+}
+
+.boton_Menu{
+	background-color: #000;
+	border: 1px solid rgba(255,255,255,0);
+	height: 30px;
+	width: 150px;
+    color:white;
+	font-family: 'Ubuntu', serif;
+    font-size: 16px;
+	
+}
+
+.boton_Menu:hover{
+	color:black;
+	background-color: #a1f8bd;
+  animation: botonM .3s ease-out;
+}
+
+@keyframes botonM {
+	from {background-color:#000;color:white;}
+	to {background-color: #a1f8bd;color:black; }
+}

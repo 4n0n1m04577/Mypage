@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<body>
+    <style></style>
+</body>
+<html>
+    <canvas width="500" height="500" id="dibujo1"></canvas>
+    <script>
+    var lienzo = document.getElementById("dibujo1");
+    var x = lienzo.getContext("2d");
+        
+        var y=100;
+        var z=270;
+        var t=260;
+        for(i=0;i<=60;i++){
+                y=y+10;
+                z=z+0.5;
+            
+            x.moveTo(230, z);
+            x.lineTo(45,y);
+            x.stroke();
+            
+            x.moveTo(270, z);
+            x.lineTo(455,y);
+            x.stroke();
+        }
+        
+        /*var canvas = document.getElementById("dibujo1");
+var ctx = canvas.getContext("2d");
+
+ctx.beginPath();
+ctx.strokeStyle = "#2f3342";
+ctx.lineWidth = 20;
+ctx.moveTo(200,200);
+ctx.lineTo(300,300);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.strokeStyle = "#3759a0";
+ctx.lineWidth = 20;
+ctx.moveTo(220,200);
+ctx.lineTo(320,300);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.strokeStyle = "#526e7d";
+ctx.lineWidth = 20;
+ctx.moveTo(240,200);
+ctx.lineTo(340,300);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.strokeStyle = "#897680";
+ctx.lineWidth = 20;
+ctx.moveTo(260,200);
+ctx.lineTo(360,300);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.strokeStyle = "#72585c";
+ctx.lineWidth = 20;
+ctx.moveTo(280,200);
+ctx.lineTo(380,300);
+ctx.stroke();
+ctx.closePath();
+
+
+var gradient=ctx.createLinearGradient(0,0,200,0);
+gradient.addColorStop("0","magenta");
+gradient.addColorStop("0.5","#ff0000");
+gradient.addColorStop("1.0","#0000ff");
+// Fill with gradient
+ctx.strokeStyle=gradient;
+ctx.lineWidth=5;
+ctx.strokeRect(20,20,150,100);
+
+
+ctx.beginPath();
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 4;
+ctx.moveTo(110,100);
+ctx.lineTo(110,135);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 4;
+ctx.moveTo(130,100);
+ctx.lineTo(130,135);
+ctx.stroke();
+ctx.closePath();
+
+
+
+
+ctx.fillStyle = "white";
+ctx.beginPath();
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 2;
+ctx.moveTo(127,100);
+ctx.lineTo(139,97);
+ctx.lineTo(142,94);
+ctx.lineTo(135,91);
+ctx.lineTo(130,93);
+ctx.lineTo(125,98);
+ctx.lineTo(127,100);
+ctx.stroke();
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 2;
+ctx.moveTo(113,100);
+ctx.lineTo(101,97);
+ctx.lineTo(98,94);
+ctx.lineTo(105,91);
+ctx.lineTo(110,93);
+ctx.lineTo(115,98);
+ctx.lineTo(113,100);
+ctx.stroke();
+ctx.fill();
+ctx.closePath();
+
+
+
+ctx.beginPath();
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 2;
+ctx.moveTo(120,62);
+ctx.lineTo(113,62);
+ctx.lineTo(101,68);
+ctx.lineTo(90,85);
+ctx.lineTo(90,100);
+ctx.lineTo(95,117);
+ctx.lineTo(107,133);
+
+ctx.lineTo(115,140);
+ctx.lineTo(125,140);
+
+ctx.lineTo(133,133);
+ctx.lineTo(145,117);
+ctx.lineTo(150,100);
+ctx.lineTo(150,85);
+ctx.lineTo(139,68);
+ctx.lineTo(127,62);
+ctx.lineTo(120,62);
+ctx.stroke();
+ctx.closePath();
+
+*/
+
+    
+    </script>
+</html>
